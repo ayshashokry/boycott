@@ -1,0 +1,136 @@
+#projMain {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primaryBG);
+  padding: 0 170px;
+  position: relative;
+}
+.main {
+  width: 100%;
+  padding: 60px 70px;
+
+  .projectDetails {
+    justify-content: center;
+    margin-bottom: 120px;
+    .role {
+      color: var(--titleColor);
+      text-align: left;
+      direction: ltr;
+      font-size: 20px;
+      text-decoration: underline;
+      padding: 10px 20px;
+      margin: 5px 0 !important;
+    }
+    .role1 {
+      font-size: 17px;
+      color: var(--secondColor);
+      margin-left: 10px;
+    }
+    .roleSpan {
+      color: #fff;
+      padding: 5px 20px;
+      text-align: left;
+      direction: ltr;
+      font-size: 16px;
+      margin: 2px 0;
+      margin-left: 10px;
+    }
+    h3 {
+      color: var(--secondColor);
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      color: var(--white);
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 20px;
+      direction: ltr;
+    }
+    .linksDiv {
+      padding: 5px;
+      text-align: center;
+      direction: ltr !important;
+      a {
+        padding: 10px;
+        button {
+          font-size: 20px;
+          height: 40px;
+          svg {
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+    .projectImg {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      border: 2px solid var(--secondColor);
+      padding: 15px;
+    }
+  }
+}
+#evenProj {
+  direction: rtl !important;
+}
+.allProjBtn {
+  text-align: center;
+  font-weight: blod !important;
+  font-size: 30px;
+  height: 60px;
+  background-color: transparent;
+  color: var(--secondColor);
+  margin-bottom: 45px;
+  text-decoration: underline;
+}
+.mainTitle {
+  color: var(--titleColor);
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: var(--titleColor);
+  }
+}
+
+@media (max-width: 1300px) {
+  .mainTitle {
+    display: block;
+  }
+  #projMain {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main {
+    padding: 10px;
+  }
+
+  .mainTitle {
+    border-bottom: 1px solid var(--titleColor);
+    width: fit-content;
+    &::after {
+      display: none !important;
+    }
+  }
+}
+@media (max-width: 530px) {
+  .projectImg {
+    height: 220px !important;
+  }
+}

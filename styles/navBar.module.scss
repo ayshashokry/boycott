@@ -1,0 +1,37 @@
+.navBar {
+  color: #fff;
+  padding: 50px 10px;
+  margin-right: auto;
+  margin-left: 50px;
+  display: flex;
+  a {
+    // margin: 10px;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .activeLink {
+    border-bottom: 3px solid var(--secondColor);
+    color: var(--secondColor);
+  }
+  .cvBtn {
+    background-color: var(--primaryColor);
+    color: var(--white);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .navBar {
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .navBar {
+    padding: 3px;
+  }
+}

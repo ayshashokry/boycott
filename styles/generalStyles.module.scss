@@ -1,0 +1,16 @@
+.socialIcons {
+  background: var(--secondColor);
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 0;
+  position: fixed;
+  right: 20px;
+  list-style-type: none;
+  li {
+    padding: 10px;
+    svg {
+      font-size: 30px;
+      color: var(--white);
+    }
+  }
+}

@@ -1,0 +1,65 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.MainDiv {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primaryBG);
+  position: relative;
+}
+:root {
+  --primaryBG: #0a192f;
+  --white: #fff;
+  --primaryColor: #5f9ea0;
+  --secondColor: #5f9ea0;
+  --titleColor: #f6cccc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+  height: 8px !important;
+  /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor) !important;
+  /* color of the scroll thumb */
+  border-radius: 5px;
+  /* roundness of the scroll thumb */
+  border: 1px solid transparent;
+  /* creates padding around scroll thumb */
+}
