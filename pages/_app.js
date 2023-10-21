@@ -4,11 +4,11 @@ import NavBar from "../components/NavBar";
 import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {
-
   return (
     <div className="MainDiv">
-     <NavBar />
-      <Component {...pageProps} /> <SocialIcons/>
+      <NavBar />
+      <Component {...pageProps} />
+      {/* <SocialIcons/> */}
     </div>
   );
 }

@@ -1,0 +1,14 @@
+{
+  "title": "Boycott",
+  "boycottTypes": {
+    "boyType": "Boycott type",
+    "resturant": "Resturants/Cafe",
+    "clean": "Detergent",
+    "sweets": "Sweets/Chips",
+    "companies": "Componies",
+    "drinks": "Drinks",
+    "cosmetics": "Cosmetics",
+    "dairyProducts": "Dairy products",
+    "chocklate": "Chocklate" ,"snacks":"Snacks"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "مقاطعة",
+  "boycottTypes": {
+    "boyType": "نوع المقاطعة",
+    "resturant": "مطاعم/كافيهات",
+    "clean": "منظفات",
+    "sweets": "حلويات",
+    "companies": "شركات",
+    "drinks": "مشروبات",
+    "cosmetics": "مستحضرات تجميل",
+    "dairyProducts": "منتجات ألبان",
+    "chocklate": "شيكولاتة",
+    "snacks": "وجبات خفيفة"
+  }
+}
