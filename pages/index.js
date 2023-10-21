@@ -1,7 +1,5 @@
 import Head from "next/head";
-import AboutMe from "../components/AboutMe";
 import styles from "../styles/Home.module.scss";
-import Projects from "./projects";
 import "../i18n";
 import { useTranslation } from "react-i18next";
 import DropDownTypes from "../components/DropDownTypes";
@@ -50,7 +48,7 @@ export default function Home() {
           <Row gutter={[16, 16]} className={styles.cardsParent}>
             {dataToMap?.length > 0 &&
               dataToMap?.map((p, idx) => (
-                <Col md={{ span: 6 }} sm={{ span: 24 }}>
+                <Col key={p.id} md={{ span: 6 }} sm={{ span: 24 }}>
                   {" "}
                   <ProductCard classN={styles.productCard} product={p} />
                 </Col>

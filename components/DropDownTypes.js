@@ -14,7 +14,7 @@ export default function DropDownTypes(props) {
         placeholder={t("boycottTypes.boyType")}
       >
         {props.types?.map((t, idx) => (
-          <Select.Option title={t.title} value={t.value} id={t.id}>
+          <Select.Option key={t.id} title={t.title} value={t.value} id={t.id}>
             {t.value}
           </Select.Option>
         ))}
