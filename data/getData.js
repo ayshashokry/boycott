@@ -103,7 +103,7 @@ export default function getData() {
     {
       id: 1,
       name: "Corn Flakes",
-      logo: "cornflak1.jpg",
+      logo: "cornFlak1.jpg",
       company: "Nestle",
     },
     {
